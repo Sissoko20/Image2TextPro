@@ -1,0 +1,7 @@
+{
+  "name": "Image2TextPro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
