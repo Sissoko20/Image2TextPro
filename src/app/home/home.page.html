@@ -1,20 +1,53 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-menu contentId="main-content">
+  <ion-header color="light">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title>Menu Content</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-content class="ion-padding">This is the menu content.</ion-content>
+</ion-menu>
+<div class="ion-page" class="ion-padding" id="main-content">
+  <div class="flexheaderfull">
+  <ion-header >
+ 
+    <ion-toolbar class="toolbar">
+      
+      <ion-buttons slot="start">
+        <div class="flextoolbar" color="light">
+        <ion-menu-button color="light"></ion-menu-button>
+        
+      <ion-searchbar color="light" placeholder="Custom Search Icon"></ion-searchbar>
+      <ion-button >
+        <ion-icon color="light"slot="icon-only" name="folder"></ion-icon>
+      </ion-button>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+    </div>
+      </ion-buttons>
+    
+
+    </ion-toolbar>
+
+    <div class="textUpload" >
+      <p class="texteUp">Charger un fichier pour le scanner</p>
+      <ion-card>
+
+      <div class="flexbtn">
+        <ion-fab-button>
+          <ion-icon name="document"></ion-icon>
+        </ion-fab-button>
+
+        <ion-fab-button>
+          <ion-icon name="Camera"></ion-icon>
+        </ion-fab-button>
+        </div>
+      </ion-card>
+    </div>
+
+  </ion-header>
+
+ 
+</div>
+  <ion-content class="ion-padding">
+  
+  </ion-content>
+</div>
